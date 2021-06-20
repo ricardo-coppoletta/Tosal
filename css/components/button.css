@@ -1,0 +1,38 @@
+.btn-blue {
+  background-color: #6D71DD;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.btn-blue:hover {
+  background-color: grey;
+  color: whites;
+  text-align: center;
+}
+
+
+.menu-principal {
+  background-color: slategray;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.menu-principal:hover {
+  background-color: black;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
