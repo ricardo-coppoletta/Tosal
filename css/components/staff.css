@@ -1,0 +1,25 @@
+  .cartas{
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: aliceblue;
+    text-align: center;
+    height: 600px;
+  }
+
+  .cartas img {
+    width: 120px;
+    border-radius: 6px;
+    padding: 15px 15px;
+    height: 120px;
+  
+  }
+
+  .equipo {
+    background-color: aliceblue;
+    width: auto;
+    text-align: center;
+  }

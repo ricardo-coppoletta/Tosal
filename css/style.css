@@ -9,6 +9,7 @@
 @import url("components/list-inline.css");
 @import url("components/menu.css");
 @import url("components/sidebar.css");
+@import url("components/staff.css");
 body {
   font-family: 'Lora', serif;
   font-size: 15px;

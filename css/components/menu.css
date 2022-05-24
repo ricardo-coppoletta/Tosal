@@ -90,10 +90,12 @@
   width: 100px;
   height: 90px;
   border: none;
+  margin-top: -40px;
+  margin-left: 60px;
 }
 
 .grid_1{
-  width: 100px;
+  width: 25 0px;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
@@ -149,7 +151,7 @@
 }
 
 .button-menu {
-  z-index: 200;
+  z-index: 2;
   width: 40px;
   height: 40px;
   border: none;

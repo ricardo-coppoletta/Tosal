@@ -23,6 +23,7 @@
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  align-items: center;
 }
 
 .menu-principal:hover {
@@ -33,6 +34,7 @@
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  align-items: center;
 }
 
 
