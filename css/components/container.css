@@ -1,6 +1,6 @@
 .container{
-  width: 1000px;
-  margin: 0px auto;
+  width: cover;
+  margin: 0px 80px;
   text-align: center;
   z-index: 2;
 }
@@ -8,53 +8,116 @@
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .body {
-    width: auto;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 600px;
-    height: auto;
-  }
-  .banner{
-    width: 600px;
-    height: auto;
+  #Ajuste {
+    max-width: 100%;
   }
 
-  .equipo {
-    background-color: aliceblue;
-    width: 600px;
-    text-align: center;
+  .cards{
+    max-width: 95%
+  }
+
+  .container{
+    max-width: 95%
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  #Ajuste {
+    max-width: 100%;
+  }
+
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  margin: 0px auto;
+}
+
+.card{
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 740px;
+    height: auto;
+    margin: 0px auto;
+  }
+  .banner{
+    width: 780px;
+    height: auto;
   }
 
   .cabecera{
-    width: 600px;
+    width: 780px;
     height: auto;
   }
   .curso{
     margin-top: 10em;
+    width: 780px;
   }
+
+  #apply-section2 {
+    margin-bottom: -270px;
+    text-align: center;}
+
+  .equipo {
+    width: 780px;
+    text-align: center;
+    background-color: white;}
+  #page-title {
+      width: 780px;
+      text-align: center;
+      background-color: white;}
+
+  .footer-end {
+    width: 780px;
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+  }
+      
+  .pie {
+    width: 760px;
+    text-align: center;
+    background-color: white;
+  }
+
+
+  .grupo-clientes {
+    width: 760px;
+    text-align: center;
+    background-color: white;}
+
   .formulario{
+    width: 780px;
     margin-top: 5em;
     text-align: center;
+    align-items: center;
+    
   }
+  .formulario1{
+    width: 780px;
+    
+  }
+
   .cartas{
-    width: 800px;
+    width: 780px;
     height: 800px;
+    padding: 0px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: white;
   }
 
+  .div.item :hover{
+    width: 200px
+  };
 
-}
-
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .body {
-    width: auto;
+    width: 780px;
 
   }
 }
@@ -76,3 +139,4 @@
   z-index: 2;
 
 }
+

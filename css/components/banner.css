@@ -11,7 +11,7 @@
   animation: banner 5s infinite linear alternate;
   justify-content: center;
   align-items: center;
-  padding:  100px 100px 100px 0px;
+  padding:  100px 0px 100px 0px;
   width: cover;
 }
 
@@ -76,37 +76,69 @@
     margin-top: 50px;}
 
 .formulario{
-      padding: 20px;
       display: flex;
       align-items: center;
       text-align: center;
     }
 
+.formulario1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.formulario2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 400px;
+}
+
 #apply-section {
   width: 300px;
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1700px;
+  margin-top: 1500px;
   text-align: center;}
 
 #apply-section1 {
-    width: 600px;
+    width: 300px;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 0px;
     text-align: center;}
 
-#apply-section {
+#apply-section2 {
   width: 300px;
   height: 350px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1700px;
+  margin-top: 0px;
   text-align: center;}
 
+
 #contenido {
-  width: 100%;
+  width: 740px;
   text-align: center;
   background-color: aliceblue;}
+
+
+#equipo {
+  width: auto;
+  text-align: center;
+  background-color: aliceblue;}
+
+.formulario1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#equipo1 {
+  width: auto;
+  text-align: center;
+  background-color: white;}

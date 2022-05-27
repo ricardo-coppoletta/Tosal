@@ -47,9 +47,9 @@
     </style>
   </head>
   <!-- Sidebar -->
-  
-  <div class="equipo">
     <body>
+    <div id="equipo">
+    <div class="equipo">
     <!--Contacto-->
       <div class="cabecera">
         <div class="contacto">
@@ -88,8 +88,8 @@
               <div class="nav-links" >
                 <a class="link-item" href="index.html" >Inicio</a>
                 <a class="link-item" href="#nuestro-equipo.html" >Conocé nuestro equipo</a>
-                <a class="link-item" href="#" >Nuestros Clientes</a>
-                <a class="link-item" href="#" >Contacto</a>
+                <a class="link-item" href="clientes.html" >Clientes</a>
+                <a class="link-item" href="#apply-section1" >Contacto</a>
               </div>
             </nav>
             <button id="button-menu" class="button-menu" >
@@ -97,21 +97,53 @@
               <span></span>
               <span></span>
             </button>
-            <a href="#index.html">
-              <img src="images/tosal-logo.jpg" id="img-logo" alt="Estudio Jurídico">
+            <a href="index.html">
+              <img src="images/Logo.JPG" id="img-logo" alt="Estudio Jurídico">
             </a>
+          </div>
+          <div class="menu" id="menu-principal">
+            <ul class="menu">
+            <li>
+              <a href="index.html#que-es-coaching">
+                <b>¿Quiénes somos?</b>
+              </a>
+            </li>
+            <li>
+              <a href="index.html#acerca-de-mi">
+                <b>Nuestros Servicios</b>
+              </a>
+            </li>
+            <li>
+              <a href="index.html#Curso-ya">
+                <b>Honorarios</b>
+              </a>
+            </li>
+            <li>
+              <a href="#apply-section1">
+                <b>Contáctanos</b>
+              </a>
+            </li>
+          </ul>
           </div>
         </section>
       </div>
       <!--Staff-->
+      <section id="page-title" class="page-title-pattern" style="background: url('images/prueba.jpg');">
+				<div class="page-title col-md-8">
+				<h1>Nuestro Equipo </h1>
+				<h4>Profesionales con amplia trayectoria y experiencia</h4>
+				</div>
+		    </section>
       <div class="cartas">
       <section class="staff">
-        <div class="item header"><h1>NUESTRO EQUIPO</h1></div>
+        <div class="item header"><p>Somos un equipo multidisciplinario con gran trayectoria en compañías de renombre
+          que busca fortalecer el desarrollo de tu empresa:
+        </p></div>
         <div class="item left"><img src="images/sai.jpg" alt="forja" id="img-circle"> 
           <h2>Saide Manzur</h2> 
           <ul>
-          <li>Contadora Publica</li>
-          <li>Coach Ontologico Profesional</li>
+          <li>Abogada</li>
+          <li>Doctorado en Derecho Penal</li>
           <li>Coach Organizacional</li>  
           </ul>
         </div>
@@ -145,14 +177,62 @@
         </div>
       </section>
       </div>
-      <div class="formulario">
+      <div class="formulario1">
         <div id="apply-section1">
           <section id="ContentFormulario">
-            <button style="width:100px;margin: 10px 0px;padding: 10px;background:#000;color:#fff;border:solid 1px #000;" onclick="GeneraForm()">Contacto</button>
+            <form action="" method="POST" id="form">
+              <div class="form">
+                  <h1>Compartinos tu Mensaje</h1>
+                  <div class="grupo">
+                    <label for=""></label>
+                    <input type="text" name="" id="name" placeholder="Nombre"> <span class="barra"></span>
+                  </div>
+                  <div class="grupo">
+                    <label for=""></label>
+                    <input type="text" name="" id="lastname"  placeholder="Apellido"> <span class="barra"></span>
+                  </div>
+                  <div class="grupo">
+                    <label for=""></label>
+                    <input type="email" name="" id="email" placeholder="Email"> <span class="barra"></span>
+                  </div>
+                  <div class="grupo1">
+                    <label for=""></label>
+                    <textarea name="" rows="8" id="message" placeholder="Mensaje"></textarea> <span class="barra"></span>
+                  </div>
+                  <button class="button-pie" type="submit">Envia tu consulta</button>
+                  <p class="warnings" id="warnings"></p>
+              </form>
           </section>
         </div>
-      </div>  
-    </body>
-  </div>    
+      </div>
+      <div class="footer-end">
+        <div class="box">
+          <div class="footerDiv footerLogo">
+            <a href="index.html">
+              <img src="images/Logo.JPG" id="img-logo" alt="Estudio Jurídico">
+            </a>
+          </div>
+          <div class="footerDiv contact">
+            <a href="tel:+542616589224" target="blank">
+              <i class="fas fa-mobile-alt"></i>  (0261) 156589224
+            </a>
+            <a href="mailto:ricardocoppoletta@gmail.com" target="blank">
+              <i class="far fa-envelope"></i>   ricardocoppoletta@gmail.com
+            </a>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.377839024403!2d-68.85659158550729!3d-32.88817707625941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e090117ca94f5%3A0x1729c6882a141294!2sAv.%20Emilio%20Civit%20336%2C%20M5500CWJ%20Mendoza!5e0!3m2!1ses!2sar!4v1653315808159!5m2!1ses!2sar" target="_blank" class="menuOption">Av Emilio Civit 336, PB Departamento 1</a>
+          </div>
+        </div>
+      </div>
+      <div class="pie">
+        <div class="pie-menu">
+        <a href="nuestro-equipo.html">Nosotros</a>
+        <a href="clientes.html">Empresas</a>
+        <a href="#apply-section1">Contacto</a>
+        </div>
+        <p>Ricardo Coppoletta - Codo a Codo 2022 - Comisión 22085</p> 
+      </div>
+    </div>
+    </div>     
+    </body>  
   <script src="js/slide.js"></script>
 </html>

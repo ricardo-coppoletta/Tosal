@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&family=Lato&family=Saira+Condensed&display=swap');
 @import url("components/container.css");
 @import url("components/avatar.css");
 @import url("components/button.css");
@@ -11,15 +10,14 @@
 @import url("components/sidebar.css");
 @import url("components/staff.css");
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Lato', 'Saira Condensed', 'Alegreya Sans', sans-serif;
   font-size: 15px;
   margin: 0 auto;
-  background-image: url("../images/fondodegradado.jpg");
-  background-color: lightgrey;
+  background-color: white;
   background-repeat: repeat;
 }
 h1,h2,h3{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', 'Saira Condensed', 'Alegreya Sans', sans-serif;
   font-weight: bold;
 }
 
@@ -31,4 +29,5 @@ a{
   width: cover;
   margin: 0 auto;
 }
+
 

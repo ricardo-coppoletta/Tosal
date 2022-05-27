@@ -1,11 +1,10 @@
   .cartas{
-    padding: 10px;
     display: inline-flex;
     align-items: center;
     border-radius: 6px;
     flex-wrap: wrap;
     flex-grow: 1;
-    background-color: aliceblue;
+    background-color: white;
     text-align: center;
     height: 600px;
   }
@@ -19,7 +18,7 @@
   }
 
   .equipo {
-    background-color: aliceblue;
+    background-color: white;
     width: auto;
     text-align: center;
   }
